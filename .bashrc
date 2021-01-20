@@ -48,7 +48,7 @@ shopt -s checkwinsize
 
 # Shell "aliases" are a simple first-word-substitution mechanism which save
 # typing and wear-and-tear on the user's mental recall:
-alias ll='ls --color=auto -l'   # The -l is "long format" in file listings
+alias ll='ls --color=auto -la'  # The -l is "long format" in file listings
 alias lr='ls --color=auto -lrt' # Sort by reverse timestamp, long format
 
 # You can change to parent director(ies) with "cd ../../..", but typing
