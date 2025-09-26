@@ -1,0 +1,3 @@
+[submodule "rose-pine-taskwarrior"]
+        path = rose-pine-taskwarrior
+        url = https://github.com/d2718nis/rose-pine-taskwarrior.git
