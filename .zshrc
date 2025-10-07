@@ -110,3 +110,9 @@ alias zshconfig="vi ~/.zshrc"
 if [ -f ~/.bash_aliases ]; then
 	. ~/.bash_aliases
 fi
+
+# Taskwarrior auto themeing
+task() {
+    ~/config/set_theme.sh
+    command task "$@"
+}
