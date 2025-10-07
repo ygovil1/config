@@ -32,9 +32,7 @@ urgency.user.tag.critical.coefficient=15.0
 #include ~/config/rose-pine-taskwarrior/rose-pine-moon-256.theme
 #include ~/config/rose-pine-taskwarrior/rose-pine-16.theme
 #include ~/config/rose-pine-taskwarrior/rose-pine-256.theme
-
-# Auto dark-light mode themeing for Mac
-include `~/config/auto-theme.sh`
+include ~/.task/current-theme.theme
 
 urgency.user.tag.later.coefficient=-6.0
 report.list.filter=status:pending or +WAITING
