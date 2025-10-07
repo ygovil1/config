@@ -1,5 +1,5 @@
 # [Created by task 3.4.1 7/24/2025 12:17:21]
-data.location=/Users/ygovil/.task
+data.location=~/.task
 news.version=3.4.1
 
 # To use the default location of the XDG directories,
@@ -28,10 +28,13 @@ urgency.user.tag.critical.coefficient=15.0
 #include solarized-dark-256.theme
 #include solarized-light-256.theme
 #include no-color.theme
-#include /Users/ygovil/config/rose-pine-taskwarrior/rose-pine-moon-16.theme
-#include /Users/ygovil/config/rose-pine-taskwarrior/rose-pine-moon-256.theme
-#include /Users/ygovil/config/rose-pine-taskwarrior/rose-pine-16.theme
-include /Users/ygovil/config/rose-pine-taskwarrior/rose-pine-256.theme
+#include ~/config/rose-pine-taskwarrior/rose-pine-moon-16.theme
+#include ~/config/rose-pine-taskwarrior/rose-pine-moon-256.theme
+#include ~/config/rose-pine-taskwarrior/rose-pine-16.theme
+#include ~/config/rose-pine-taskwarrior/rose-pine-256.theme
+
+# Auto dark-light mode themeing for Mac
+include `~/config/auto-theme.sh`
 
 urgency.user.tag.later.coefficient=-6.0
 report.list.filter=status:pending or +WAITING
