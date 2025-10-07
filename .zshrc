@@ -113,6 +113,6 @@ fi
 
 # Taskwarrior auto themeing
 task() {
-    ~/config/set_theme.sh
+    ~/config/set-theme.sh
     command task "$@"
 }
