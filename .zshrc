@@ -15,10 +15,7 @@ export ZSH="/home/ygovil/.oh-my-zsh"
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-ZSH_THEME="powerlevel10k/powerlevel10k"
-
-powerline-daemon -q
-. /home/ygovil/.local/lib/python3.8/site-packages/powerline/bindings/zsh/powerline.zsh
+ZSH_THEME="robbyrussell"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -113,10 +110,3 @@ alias zshconfig="vi ~/.zshrc"
 if [ -f ~/.bash_aliases ]; then
 	. ~/.bash_aliases
 fi
-
-# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
-[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
-
-# Jump to home dir
-cd ~
-export PATH=/home/ygovil/.local/bin:$PATH
