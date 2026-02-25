@@ -24,6 +24,9 @@ alias gitr='git commit --amend'
 # Docker
 alias dc="docker-compose"
 
+# Terraform
+alias tf="terraform"
+
 # Taskwarrior
 alias t="task"
 alias ta="task add"
